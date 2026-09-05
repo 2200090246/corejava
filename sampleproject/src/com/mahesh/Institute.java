@@ -1,10 +1,13 @@
+//Task: create a class Institute print student details in that institute using methods
 package com.mahesh;
 
 public class Institute {
-	static String Trainer1,Trainer2;
+	static String Trainer1,Trainer2; // As Trainers are same for every student in a institute i have created two static variables 
+	//As Student details will change for every object i have created details variables as instance variables
 	String ename;
 	int eid;
 	String edesignation;
+	//Below show method will print the details of all students as we are printing student details for every object i have created show method to reuse the code 
 	void show(String ename,int eid,String edisgnation) {
 		System.out.println("Trainer1 Name: "+Trainer1+" Trainer2 Name: "+Trainer2+" Employee Name: "+ename+" Employee id: "+eid+" Employee designation: "+edesignation);
 	}
