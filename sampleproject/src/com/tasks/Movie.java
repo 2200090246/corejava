@@ -1,3 +1,4 @@
+//Task: Write a program to print the details of movies in a theater
 package com.tasks;
 import java.time.LocalDate;
 public class Movie {
