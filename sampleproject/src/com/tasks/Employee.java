@@ -12,7 +12,10 @@ public class Employee {
 	int avialbleleaves;//global
 	void applyLeave( ) {
 
-		if(avialbleleaves == 0) System.out.println(id+"You have No more Leaves in this month to apply for leave");
+		if(avialbleleaves == 0) {
+			System.out.println(id+"You have No more Leaves in this month to apply for leave");
+			return;
+		}
 		avialbleleaves--;
 		nol++;
 	}
