@@ -1,3 +1,4 @@
+//Task: User has 100 Rupees and one pencil costs 7 rupees now you have to calculate how many pencils User can buy and how much balance is available at user;
 package com.tasks;
 
 public class MathTest {
