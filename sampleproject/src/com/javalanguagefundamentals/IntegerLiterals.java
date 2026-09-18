@@ -19,7 +19,7 @@ public class IntegerLiterals {
 		//0x->hexadecimal literal;
 		//10AEd -> (16^0 * d)+(16^1*E)+(16^2 * A)+(16 ^ 3 * 0) + (16^4 * 1)
 		//here A = 10,b = 11,c=12,d=13,e=14,f=15;
-		//so,10AEd -> (1*13)+(16*14)+(256*10)+(0)+(65536) = 
+		//so,10AEd -> (1*13)+(16*14)+(256*10)+(0)+(65536) = 68333
 		int c = 0x10AEd;
 		System.out.println(x);
 		System.out.println(y);
