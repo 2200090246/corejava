@@ -1,3 +1,4 @@
+//task:calculation using methods
 package com.methods.nrwtp;
 
 import java.util.Scanner;
