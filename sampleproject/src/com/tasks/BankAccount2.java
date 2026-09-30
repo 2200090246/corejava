@@ -13,10 +13,10 @@ public class BankAccount2 {
 		this.balance = balance;
 		this.branch = branch;
 	}
-	public BankAccount2(BankAccount2 b) {
-		this.account_number=b.account_number;
-		this.account_holder_name=b.account_holder_name;
-		this.balance=b.balance;
+	public BankAccount2(BankAccount2 b,long account_number,String account_holder_name,double balance) {
+		this.account_number=account_number;
+		this.account_holder_name=account_holder_name;
+		this.balance=balance;
 		this.branch=b.branch;
 	}
 	public void accountInfo() {
@@ -31,9 +31,7 @@ public class BankAccount2 {
 		BankAccount2 b = new BankAccount2(246,"mahesh",2000.00,"Julurpad");
 		b.accountInfo();
 		System.out.println(" ");
-		BankAccount2 b1 = new BankAccount2(b);
-		b1.branch="Khammam";
-		b1.balance=5000;
+		BankAccount2 b1 = new BankAccount2(b,2555,"Mokshitha",8000);
 		b1.accountInfo();
 	}
 
