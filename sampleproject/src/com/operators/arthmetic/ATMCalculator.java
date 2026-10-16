@@ -1,3 +1,4 @@
+//Task: calculate how many notes qeuired based o the amount entered by user
 package com.operators.arthmetic;
 import java.util.Scanner;
 public class ATMCalculator {
