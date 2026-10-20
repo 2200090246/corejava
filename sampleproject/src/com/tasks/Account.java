@@ -15,6 +15,7 @@ public class Account {
 		Account a = new Account();
 		a.accountHolderName = "Mahesh";
 		a.balance = 400000;
+		
 		System.out.println(a.accountHolderName + " Details");
 		System.out.println("Account Holder Name : " + a.accountHolderName + ", Account Number : " + a.Acno
 				+ ", Balance : " + a.balance);
