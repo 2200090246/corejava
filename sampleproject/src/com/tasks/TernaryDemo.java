@@ -6,6 +6,7 @@ public class TernaryDemo {
 		// TODO Auto-generated method stub
 		int a = 23;
 		int b = 14;
+		
 		System.out.println((a>0)?"positive":"negative");
 		System.out.println((a==10)?"a is equl to 10":"a is not equal to 10");
 		System.out.println("max value "+((a > b)?a: b));
